@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>LIVE TV - Suscripción Premium</title>
   <meta name="description" content="Live Tv Premium: canales en vivo, películas y series. Activación rápida, soporte y planes flexibles." />
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-<style>
+  <style>
     :root{
       --bg:#0b1020;
       --card:#0f1733;
@@ -48,21 +48,21 @@
     }
 
     /* ====== TOPBAR ====== */
-   .topbar{
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  backdrop-filter: blur(10px);
-  background: rgba(245,245,245,.92);
-  border-bottom: 1px solid rgba(0,0,0,.08);
+    .topbar{
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(10px);
+      background: rgba(245,245,245,.92);
+      border-bottom: 1px solid rgba(0,0,0,.08);
 
-  display: flex;
-  align-items: center;   /* 👈 CENTRA verticalmente */
-  justify-content: space-between;
-  width: 100%;
-  padding: 8px 20px;     /* 👈 MÁS PEQUEÑO */
-  height: 70px;          /* 👈 ALTURA CONTROLADA */
-}
+      display: flex;
+      align-items: center;   /* 👈 CENTRA verticalmente */
+      justify-content: space-between;
+      width: 100%;
+      padding: 8px 20px;     /* 👈 MÁS PEQUEÑO */
+      height: 70px;          /* 👈 ALTURA CONTROLADA */
+    }
 
     .brand{
       display:flex;
@@ -212,32 +212,31 @@
       margin-top: 20px;
     }
     .mini{
-    padding:16px;
-    background: linear-gradient(135deg, #1e3a8a, #6d28d9);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius:16px;
-    color:white;
-    transition: 0.3s ease;
-}
+      padding:16px;
+      background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius:16px;
+      color:white;
+      transition: 0.3s ease;
+    }
 
-.mini:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
+    .mini:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
 
-.mini strong{
-    display:block;
-    font-size:30px;
-    font-weight:600;
-}
+    .mini strong{
+      display:block;
+      font-size:30px;
+      font-weight:600;
+    }
 
-.mini span{
-    display:block;
-    font-size:15px;
-    margin-top:5px;
-    opacity:0.85;
-}
-
+    .mini span{
+      display:block;
+      font-size:15px;
+      margin-top:5px;
+      opacity:0.85;
+    }
 
     /* ====== CARDS / PLANS ====== */
     .grid3{
@@ -414,181 +413,181 @@
       cursor:pointer;
       user-select:none;
     }
- /* ====== MODAL INTERNET FULLSCREEN ====== */
-.modal{
-  display:none;
-  position:fixed;
-  inset:0;
-  width:100%;
-  height:100%;
-  background: hsla(70, 11%, 89%, 0.851);
-  justify-content:center;
-  align-items:center;
-  z-index:9999;
-}
 
-/* Contenedor del modal en pantalla completa */
-.internet-modal{
-  width:100%;
-  height:100%;
-  max-width:100%;
-  max-height:100%;
-  background: rgba(15,23,51,.97);
-  border-radius:0;
-  padding:40px;
-  overflow-y:auto;
-  position:relative;
-  animation: popIn .2s ease;
-}
-/* Aumentar tamaño en modal Internet */
-.internet-modal h2{
-  font-size: 20px;
-}
+    /* ====== MODAL INTERNET FULLSCREEN ====== */
+    .modal{
+      display:none;
+      position:fixed;
+      inset:0;
+      width:100%;
+      height:100%;
+      background: hsla(70, 11%, 89%, 0.851);
+      justify-content:center;
+      align-items:center;
+      z-index:9999;
+    }
 
-.internet-modal p{
-  font-size: 16px;
-}
+    /* Contenedor del modal en pantalla completa */
+    .internet-modal{
+      width:100%;
+      height:100%;
+      max-width:100%;
+      max-height:100%;
+      background: rgba(15,23,51,.97);
+      border-radius:0;
+      padding:40px;
+      overflow-y:auto;
+      position:relative;
+      animation: popIn .2s ease;
+    }
+    /* Aumentar tamaño en modal Internet */
+    .internet-modal h2{
+      font-size: 20px;
+    }
 
-.internet-card strong{
-  font-size: 35px;
-}
+    .internet-modal p{
+      font-size: 16px;
+    }
 
-.internet-card p{
-  font-size: 16px;
-}
+    .internet-card strong{
+      font-size: 35px;
+    }
 
-.internet-pill{
-  font-size: 20px;
-}
+    .internet-card p{
+      font-size: 16px;
+    }
 
-.internet-footer{
-  font-size: 20px;
-}
-.internet-card .btn{
-  font-size: 16px;
-  padding: 14px 24px;
-}
+    .internet-pill{
+      font-size: 20px;
+    }
 
-#internetAllBtn{
-  font-size: 18px;
-  padding: 16px 30px;
-}
+    .internet-footer{
+      font-size: 20px;
+    }
+    .internet-card .btn{
+      font-size: 16px;
+      padding: 14px 24px;
+    }
 
-@keyframes popIn{
-  from{ transform: translateY(14px) scale(.98); opacity: 0; }
-  to{ transform: translateY(0) scale(1); opacity: 1; }
-}
+    #internetAllBtn{
+      font-size: 18px;
+      padding: 16px 30px;
+    }
 
-.internet-close{
-  position:absolute;
-  top: 10px;
-  right: 12px;
-  width: 44px;
-  height: 44px;
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,.14);
-  background: rgba(255,255,255,.06);
-  color: #fff;
-  font-size: 30px;
-  cursor:pointer;
-}
+    @keyframes popIn{
+      from{ transform: translateY(14px) scale(.98); opacity: 0; }
+      to{ transform: translateY(0) scale(1); opacity: 1; }
+    }
 
-.internet-header{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap: 12px;
-  padding: 10px 10px 16px;
-}
+    .internet-close{
+      position:absolute;
+      top: 10px;
+      right: 12px;
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: #fff;
+      font-size: 30px;
+      cursor:pointer;
+    }
 
-.internet-pill{
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, rgba(79,140,255,.35), rgba(34,197,94,.25));
-  border: 1px solid rgba(255,255,255,.14);
-  font-weight: 900;
-  color: #fff;
-  white-space: nowrap;
-}
+    .internet-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      padding: 10px 10px 16px;
+    }
 
-.internet-grid{
-  display:grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
-  padding: 0 10px 10px;
-}
+    .internet-pill{
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(79,140,255,.35), rgba(34,197,94,.25));
+      border: 1px solid rgba(255,255,255,.14);
+      font-weight: 900;
+      color: #fff;
+      white-space: nowrap;
+    }
 
-.internet-card{
-  background: lab(33.1% 23.4 -9.33 / 0.603);
-  border: 1px solid rgba(255,255,255,.12);
-  border-radius: 18px;
-  padding: 14px;
-  transition: .25s;
-}
+    .internet-grid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      padding: 0 10px 10px;
+    }
 
-.internet-card:hover{
-  transform: translateY(-3px);
-  border-color: #e00dbde1;
-  box-shadow: 0 18px 50px rgba(79,140,255,.12);
-}
+    .internet-card{
+      background: lab(33.1% 23.4 -9.33 / 0.603);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 18px;
+      padding: 14px;
+      transition: .25s;
+    }
 
-.internet-top{
-  display:flex;
-  align-items:center;
-  gap: 12px;
-  margin-bottom: 10px;
-}
+    .internet-card:hover{
+      transform: translateY(-3px);
+      border-color: #e00dbde1;
+      box-shadow: 0 18px 50px rgba(79,140,255,.12);
+    }
 
-.internet-logo{
-  width: 110px;
-  height: 34px;
-  object-fit: contain;
-  background: rgba(255,255,255,.92);
-  border-radius: 10px;
-  padding: 6px 10px;
-}
+    .internet-top{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
 
-.internet-card p{
-  font-size: 23px;      /* Tamaño */
-  color: #ffffff;       /* Color blanco */
-  font-weight: 500;     /* Grosor */
-  line-height: 1.6;
-}
+    .internet-logo{
+      width: 110px;
+      height: 34px;
+      object-fit: contain;
+      background: rgba(255,255,255,.92);
+      border-radius: 10px;
+      padding: 6px 10px;
+    }
 
-.internet-footer{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap: 12px;
-  padding: 12px 10px 6px;
-  flex-wrap: wrap;
-}
+    .internet-card p{
+      font-size: 23px;      /* Tamaño */
+      color: #ffffff;       /* Color blanco */
+      font-weight: 500;     /* Grosor */
+      line-height: 1.6;
+    }
 
-@media (max-width: 860px){
-  .internet-grid{ grid-template-columns: 1fr; }
-  .internet-logo{ width: 120px; }
-}
-/* BOTÓN INTERNET GRANDE Y CENTRADO */
-.btn-internet{
-  font-size: 22px;
-  padding: 18px 40px;
-  border-radius: 18px;
-  font-weight: 900;
-  letter-spacing: .5px;
-  box-shadow: 0 20px 60px rgba(79,140,255,.35);
-  transition: all .25s ease;
-}
+    .internet-footer{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      padding: 12px 10px 6px;
+      flex-wrap: wrap;
+    }
 
-.btn-internet:hover{
-  transform: scale(1.05);
-}
-.internet-center{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  margin: 40px 0;
-}
+    @media (max-width: 860px){
+      .internet-grid{ grid-template-columns: 1fr; }
+      .internet-logo{ width: 120px; }
+    }
+    /* BOTÓN INTERNET GRANDE Y CENTRADO */
+    .btn-internet{
+      font-size: 22px;
+      padding: 18px 40px;
+      border-radius: 18px;
+      font-weight: 900;
+      letter-spacing: .5px;
+      box-shadow: 0 20px 60px rgba(79,140,255,.35);
+      transition: all .25s ease;
+    }
 
+    .btn-internet:hover{
+      transform: scale(1.05);
+    }
+    .internet-center{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin: 40px 0;
+    }
   </style>
 </head>
 
@@ -602,15 +601,13 @@
           <div class="brand-name">Live Tv</div>
           <div class="brand-sub">Live Tv • Premium</div>
         </div>
-    <div class="internet-center">
-  <a class="btn primary btn-internet" id="openInternetModal" href="#">
-    🌐 Internet USA
-  </a>
-</div>
-</div>
-</a>
-  <nav class="nav" aria aria-label="secciones">
-  </nav>
+        <div class="internet-center">
+          <a class="btn primary btn-internet" id="openInternetModal" href="#">
+            🌐 Internet USA
+          </a>
+        </div>
+      </div>
+
       <nav class="nav" aria-label="Secciones">
         <a href="#beneficios">Beneficios</a>
         <a href="#planes">Planes</a>
@@ -753,7 +750,6 @@
       </div>
     </section>
 
-
     <!-- Cómo funciona -->
     <section id="como-funciona">
       <div class="sectionTitle">
@@ -843,83 +839,90 @@
   <div id="videoModal" class="modal">
     <div class="modal-content">
       <span class="close" id="closeVideo">&times;</span>
-      <video id="localVideo" controls>
-        <source src="stream-video.mp4" type="video/mp4">
-        Tu navegador no soporta video.
-      </video>
+
+      <iframe
+        id="youtubeVideo"
+        width="100%"
+        height="400"
+        src="https://www.youtube.com/embed/m2Sv60LJwpE"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
     </div>
   </div>
-  <div id="videoModal" class="modal"> ... </div>
+
   <!-- MODAL INTERNET USA (PREMIUM) -->
-<div id="internetModal" class="modal">
-  <div class="internet-modal">
-    <button class="internet-close" id="closeInternetModal" aria-label="Cerrar">&times;</button>
+  <div id="internetModal" class="modal">
+    <div class="internet-modal">
+      <button class="internet-close" id="closeInternetModal" aria-label="Cerrar">&times;</button>
 
-    <div class="internet-header">
-      <div>
-        <h2 style="margin:0;">Internet Estados Unidos</h2>
-        <p style="margin:6px 0 0; color: var(--muted);">
-          Consultá disponibilidad por Estado/Ciudad o ZIP Code.
-        </p>
-      </div>
-      <div class="internet-pill">⚡ Soporte por WhatsApp</div>
-    </div>
-
-    <div class="internet-grid">
-      <div class="internet-card">
-        <div class="internet-top">
-          <img src="Spectrum-logo.png" alt="Spectrum" class="internet-logo">
-          <strong>Spectrum</strong>
+      <div class="internet-header">
+        <div>
+          <h2 style="margin:0;">Internet Estados Unidos</h2>
+          <p style="margin:6px 0 0; color: var(--muted);">
+            Consultá disponibilidad por Estado/Ciudad o ZIP Code.
+          </p>
         </div>
-        <p>Internet residencial con buena cobertura en muchos estados.</p>
-        <a class="btn whatsapp internet-wa" data-company="Spectrum" href="#" target="_blank" rel="noopener">📲 Consultar Spectrum</a>
+        <div class="internet-pill">⚡ Soporte por WhatsApp</div>
       </div>
 
-      <div class="internet-card">
-        <div class="internet-top">
-          <img src="New-frontier-logo.png" alt="Frontier" class="internet-logo">
-          <strong>Frontier</strong>
+      <div class="internet-grid">
+        <div class="internet-card">
+          <div class="internet-top">
+            <img src="Spectrum-logo.png" alt="Spectrum" class="internet-logo">
+            <strong>Spectrum</strong>
+          </div>
+          <p>Internet residencial con buena cobertura en muchos estados.</p>
+          <a class="btn whatsapp internet-wa" data-company="Spectrum" href="#" target="_blank" rel="noopener">📲 Consultar Spectrum</a>
         </div>
-        <p>Opciones de fibra óptica disponibles según tu zona.</p>
-        <a class="btn whatsapp internet-wa" data-company="Frontier" href="#" target="_blank" rel="noopener">📲 Consultar Frontier</a>
-      </div>
 
-      <div class="internet-card">
-        <div class="internet-top">
-          <img src="At&t-logo.png" alt="AT&amp;T" class="internet-logo">
-          <strong>AT&amp;T</strong>
+        <div class="internet-card">
+          <div class="internet-top">
+            <img src="New-frontier-logo.png" alt="Frontier" class="internet-logo">
+            <strong>Frontier</strong>
+          </div>
+          <p>Opciones de fibra óptica disponibles según tu zona.</p>
+          <a class="btn whatsapp internet-wa" data-company="Frontier" href="#" target="_blank" rel="noopener">📲 Consultar Frontier</a>
         </div>
-        <p>Planes de fibra/DSL con excelente estabilidad (según área).</p>
-        <a class="btn whatsapp internet-wa" data-company="AT&T" href="#" target="_blank" rel="noopener">📲 Consultar AT&amp;T</a>
-      </div>
 
-      <div class="internet-card">
-        <div class="internet-top">
-          <img src="Xfinity-logo.png" alt="Xfinity" class="internet-logo">
-          <strong>Xfinity</strong>
+        <div class="internet-card">
+          <div class="internet-top">
+            <img src="At&t-logo.png" alt="AT&amp;T" class="internet-logo">
+            <strong>AT&amp;T</strong>
+          </div>
+          <p>Planes de fibra/DSL con excelente estabilidad (según área).</p>
+          <a class="btn whatsapp internet-wa" data-company="AT&T" href="#" target="_blank" rel="noopener">📲 Consultar AT&amp;T</a>
         </div>
-        <p>Alta velocidad ideal para streaming, trabajo y gaming.</p>
-        <a class="btn whatsapp internet-wa" data-company="Xfinity" href="#" target="_blank" rel="noopener">📲 Consultar Xfinity</a>
-      </div>
 
-      <div class="internet-card">
-        <div class="internet-top">
-          <img src="Optimum-logo.png" alt="Optimum" class="internet-logo">
-          <strong>Optimum</strong>
+        <div class="internet-card">
+          <div class="internet-top">
+            <img src="Xfinity-logo.png" alt="Xfinity" class="internet-logo">
+            <strong>Xfinity</strong>
+          </div>
+          <p>Alta velocidad ideal para streaming, trabajo y gaming.</p>
+          <a class="btn whatsapp internet-wa" data-company="Xfinity" href="#" target="_blank" rel="noopener">📲 Consultar Xfinity</a>
         </div>
-        <p>Plan residencial estable con buena cobertura en varias zonas.</p>
-        <a class="btn whatsapp internet-wa" data-company="Optimum" href="#" target="_blank" rel="noopener">📲 Consultar Optimum</a>
-      </div>
-    </div>
 
-    <div class="internet-footer">
-      <div style="color: var(--muted); font-weight:700;">
-        📍 Para cotizar: Envíanos tu <strong>ZIP Code</strong> o <strong>Ciudad + Estado</strong>.
+        <div class="internet-card">
+          <div class="internet-top">
+            <img src="Optimum-logo.png" alt="Optimum" class="internet-logo">
+            <strong>Optimum</strong>
+          </div>
+          <p>Plan residencial estable con buena cobertura en varias zonas.</p>
+          <a class="btn whatsapp internet-wa" data-company="Optimum" href="#" target="_blank" rel="noopener">📲 Consultar Optimum</a>
+        </div>
       </div>
-      <a class="btn primary" id="internetAllBtn" href="#" target="_blank" rel="noopener">📲 Consultar disponibilidad</a>
+
+      <div class="internet-footer">
+        <div style="color: var(--muted); font-weight:700;">
+          📍 Para cotizar: Envíanos tu <strong>ZIP Code</strong> o <strong>Ciudad + Estado</strong>.
+        </div>
+        <a class="btn primary" id="internetAllBtn" href="#" target="_blank" rel="noopener">📲 Consultar disponibilidad</a>
+      </div>
     </div>
   </div>
-</div>
+
   <script>
     // ✅ TU NÚMERO (código país sin +)
     const WHATSAPP_NUMBER = "19562755182";
@@ -946,43 +949,74 @@
       const msg = `Hola, quiero el plan ${plan} de Live Tv. ¿Cómo lo activo?`;
       btn.href = waLink(msg);
     });
+
+    // ====== MODAL VIDEO (CORRECCIÓN) ======
+    const videoModal = document.getElementById("videoModal");
+    const iframe = document.getElementById("youtubeVideo");
+    const closeVideo = document.getElementById("closeVideo");
+    const videoCard = document.getElementById("videoCard");
+
+    if (videoCard) {
+      videoCard.addEventListener("click", () => {
+        videoModal.style.display = "flex";
+      });
+    }
+
+    if (closeVideo) {
+      closeVideo.addEventListener("click", () => {
+        videoModal.style.display = "none";
+        iframe.src = iframe.src; // reinicia video
+      });
+    }
+
+    if (videoModal) {
+      videoModal.addEventListener("click", (e) => {
+        if (e.target === videoModal) {
+          videoModal.style.display = "none";
+          iframe.src = iframe.src; // reinicia video
+        }
+      });
+    }
+
     // ====== MODAL INTERNET USA ======
-const internetModal = document.getElementById("internetModal");
-const openInternetModal = document.getElementById("openInternetModal");
-const closeInternetModal = document.getElementById("closeInternetModal");
+    const internetModal = document.getElementById("internetModal");
+    const openInternetModal = document.getElementById("openInternetModal");
+    const closeInternetModal = document.getElementById("closeInternetModal");
 
-function openInternet(e){
-  if (e) e.preventDefault();
-  internetModal.style.display = "flex";
-  document.body.style.overflow = "hidden";
-}
+    function openInternet(e){
+      if (e) e.preventDefault();
+      internetModal.style.display = "flex";
+      document.body.style.overflow = "hidden";
+    }
 
-function closeInternet(){
-  internetModal.style.display = "none";
-  document.body.style.overflow = "";
-}
+    function closeInternet(){
+      internetModal.style.display = "none";
+      document.body.style.overflow = "";
+    }
 
-if (openInternetModal) openInternetModal.addEventListener("click", openInternet);
-if (closeInternetModal) closeInternetModal.addEventListener("click", closeInternet);
+    if (openInternetModal) openInternetModal.addEventListener("click", openInternet);
+    if (closeInternetModal) closeInternetModal.addEventListener("click", closeInternet);
 
-internetModal.addEventListener("click", (e) => {
-  if (e.target === internetModal) closeInternet();
-});
+    if (internetModal) {
+      internetModal.addEventListener("click", (e) => {
+        if (e.target === internetModal) closeInternet();
+      });
+    }
 
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && internetModal.style.display === "flex") closeInternet();
-});
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && internetModal && internetModal.style.display === "flex") closeInternet();
+    });
 
-// WhatsApp por compañía (usa tu waLink ya existente)
-document.querySelectorAll(".internet-wa").forEach(btn => {
-  const company = btn.getAttribute("data-company");
-  btn.href = waLink(`Hola, quiero información de Internet USA con ${company}. Mi ciudad/estado o ZIP Code es: `);
-});
+    // WhatsApp por compañía (usa tu waLink ya existente)
+    document.querySelectorAll(".internet-wa").forEach(btn => {
+      const company = btn.getAttribute("data-company");
+      btn.href = waLink(`Hola, quiero información de Internet USA con ${company}. Mi ciudad/estado o ZIP Code es: `);
+    });
 
-const internetAllBtn = document.getElementById("internetAllBtn");
-if (internetAllBtn){
-  internetAllBtn.href = waLink("Hola, quiero consultar disponibilidad de Internet USA. Mi ciudad/estado o ZIP Code es: ");
-}
+    const internetAllBtn = document.getElementById("internetAllBtn");
+    if (internetAllBtn){
+      internetAllBtn.href = waLink("Hola, quiero consultar disponibilidad de Internet USA. Mi ciudad/estado o ZIP Code es: ");
+    }
   </script>
 </body>
 </html>
